@@ -1,0 +1,5 @@
+Boy, remember these things before printing any pattern.
+1. Outer loop measures the number of rows.
+2. Inner loop measures the number of columns and connect them somehow to the rows
+3. Anything you need to print, do it inside the inner loop.
+4. Observer symmetry [optional in some cases]
