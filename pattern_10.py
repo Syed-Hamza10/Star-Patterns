@@ -9,11 +9,18 @@
 # *
 
 
-def pattern(size):
-    for i in range(2*size):
-        if i > size:
-            print('*' * (2*size-i))
-        else:
-            print('*' * i)
+# def pattern(size):
+#     for i in range(2*size):
+#         if i > size:
+#             print('*' * (2*size-i))
+#         else:
+#             print('*' * i)
 
-pattern(5)            
+# pattern(5)     
+
+
+n = 8
+if n==5:
+    print("This number is five")
+else:
+    print("This number is not five")    
